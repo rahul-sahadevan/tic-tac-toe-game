@@ -1,0 +1,41 @@
+h1,.grid-items{
+    text-align: center;
+    font-family: Permanent Marker;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: solid 1px;
+    width:300px;
+    height: 300px;
+    margin: 50px;
+    background-color: pink;
+    margin: auto;
+  }
+  #grid div{
+    border: solid 1px;
+    text-align: center;
+    padding: 25px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+  }
+  input{
+    padding: 10px;
+  }
+  .grid-items{
+    font-size: 30px;
+  }
+  #submit,#re-start{
+    border: none;;
+    border-radius: 5px;;
+    font-size: 25px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+  }
+  
